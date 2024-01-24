@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Rotate : MonoBehaviour
 {
+    float speed = 10f;
     // Start is called before the first frame update
     void Start()
     {
@@ -13,6 +14,6 @@ public class Rotate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        object obj = transform.position;
     }
 }
